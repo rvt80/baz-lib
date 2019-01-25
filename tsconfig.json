@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "baz-lib": [
+        "dist/baz-lib"
+      ],
+      "baz-lib/*": [
+        "dist/baz-lib/*"
+      ]
+    }
   }
 }
